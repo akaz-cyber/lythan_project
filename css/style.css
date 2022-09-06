@@ -1,0 +1,119 @@
+/* first dispnalayer */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+body{
+    height: 2000px;
+
+}
+
+/* navbar */
+header{
+ display: flex;
+ width: 100%;
+ justify-content: space-between;
+ align-items: center ;
+ -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+ box-shadow: 5px 5px 15px 5px #4c4949;
+
+}
+header img{
+ height: 35px;
+ padding: 10px;
+}
+header ul{
+display: flex;
+ width: 30%;
+ justify-content: space-between;
+ align-items: center;
+ list-style-type: none;
+}
+header ul li:hover{
+    border-bottom: 3px solid yellow;    
+}
+
+header a{
+    text-decoration: none;
+    color: black   ;
+}   
+ 
+/* end center */
+
+/* image first */
+.image {
+     padding: 100px;
+      justify-content: center;
+      text-align: center; 
+
+}
+
+.container{
+    width: 59%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}   
+.teks1{
+    text-align: center;
+    margin: 0px 20px;
+}
+.bar{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    flex-direction: column;
+    align-items: center;
+    background: url("../img/article.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    color: white;
+}
+.bar h2{
+  text-align: center;
+  padding: 40px;
+  justify-content: space-around;
+  
+}
+
+.hot_class{
+   padding: 3%;
+    text-align: center;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  .conten{
+    display: flex;
+    width: 100%;
+
+  }
+  .card{
+    width: 100%;
+    margin: 20px;
+ }
+.item h1{
+        margin-bottom: 20px;
+    
+}
+
+
+
+  
